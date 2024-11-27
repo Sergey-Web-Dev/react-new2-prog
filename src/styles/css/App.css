@@ -1,0 +1,76 @@
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 10rem 2rem 2rem;
+  text-align: center;
+}
+.container-light {
+  background-color: #c5c5c5;
+  color: #686868;
+}
+.container-dark {
+  background-color: #707070;
+  color: #ffffff;
+}
+
+.navbar {
+  padding: 2rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar li {
+  padding-right: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+.navbar a {
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: palevioletred;
+}
+
+.header {
+  position: fixed;
+}
+
+.header,
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 10px #585858;
+  background-color: #383838;
+}
+.header__moon, .header__moon,
+.footer__moon,
+.footer__moon {
+  background-color: #242424;
+  color: #fcfcfc;
+}
+.header__sun, .header__sun,
+.footer__sun,
+.footer__sun {
+  background-color: #fcfcfc;
+  color: #242424;
+}
+
+.btn {
+  padding: 2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn__sun {
+  color: rgb(248, 236, 62);
+}
+.btn__moon {
+  color: rgb(141, 74, 250);
+}/*# sourceMappingURL=App.css.map */
